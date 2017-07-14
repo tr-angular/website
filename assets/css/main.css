@@ -542,6 +542,14 @@ p {
     .sponsors-section{
         color:#fff;
     }
+    
+    .sponsors-section p{
+        color:#fff;
+    }
+    
+    .sponsors-section p > b{
+        color:#fff;
+    }
 
     .sponsors-section ul.members {
         margin:0px;

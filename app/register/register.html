@@ -1,0 +1,64 @@
+<div class="template-card">
+    <header class="hero overlay">
+        <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="fa fa-bars"></span>
+                </button>
+                    <a href="#!/" class="brand">
+                    <img src="assets/images/logo.png" alt="Knowledge">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" ng-include="'app/template/navigasyon.html'"></ul>
+            </div>
+        </div>
+    </nav>
+        <div class="masthead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1>Looking for Some help?</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="card-section">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="card text-center">
+
+                    <header class="text-center">
+                        <h2 class="section-title">Yeni Hesap Oluştur</h2>
+                        <div class="section-subtitle">Harika topluluğumuza katıl ve en çok kazandıran, bu çatıyı öğrenmek için ilk adımını at!</div>
+                    </header>
+
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6"><input type="text" ng-model="register.name" class="search-field" placeholder="adın"/></div>
+                            <div class="col-md-6"><input type="text" ng-model="register.surname" class="search-field" placeholder="soyadın"/></div>
+                            <div class="col-md-12"><input type="text" ng-model="register.email" class="search-field" placeholder="e-mail adresin"/></div>
+                            <div class="col-md-6"><input type="text" ng-model="register.password" class="search-field" placeholder="şifren"/></div>
+                            <div class="col-md-6"><input type="text" ng-model="register.passwordR" class="search-field" placeholder="şifreni tekrar gir"/></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-success" ng-click="register.sign()" value="Hesap Oluştur">
+                                <p class="forget-pass">Sana bir doğrulama E-Postası göndereceğiz!</p>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <div class="col-md-12 section" ng-include="'app/template/community/community.html'"></div>
+    <div class="col-md-12 footer" ng-include="'app/template/footer.html'"></div>
+</div>

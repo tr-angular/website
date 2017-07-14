@@ -1,0 +1,59 @@
+<div class="template-card">
+    <header class="hero overlay">
+        <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="fa fa-bars"></span>
+                </button>
+                    <a href="#!/" class="brand">
+                    <img src="assets/images/logo.png" alt="Knowledge">
+                </a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" ng-include="'app/template/navigasyon.html'"></ul>
+            </div>
+        </div>
+    </nav>
+        <div class="masthead"><div class="container"></div></div>
+    </header>
+
+
+    <!-- From -->
+
+    <section class="card-section">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="card text-center">
+
+                    <header class="text-center">
+                        <h2 class="section-title">Tekrar Hoşgeldin</h2>
+                        <div class="section-subtitle">Harika topluluğumuza katıldığın için, teşekkürler. Bir an önce giriş yap ve öğrenmeye, kaldığın yerden devam et!</div>
+                    </header>
+                    <div class="icon">
+                    <img src="assets/images/icon/icon-login.png" alt=""/>
+                    </div>
+
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">   <input type="text" class="search-field" placeholder="e-mail adresin"/></div>
+                            <div class="col-md-6">   <input type="text" class="search-field" placeholder="şifren"/></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-success" value="Giriş Yap">
+                                <p class="forget-pass"><a href="">Kullanıcı adınızı veya şifrenizi mi unuttunuz ?</a> </p>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <div class="col-md-12 section" ng-include="'app/template/community/community.html'"></div>
+    <div class="col-md-12 footer" ng-include="'app/template/footer.html'"></div>
+</div>

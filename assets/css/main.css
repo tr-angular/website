@@ -530,15 +530,77 @@ p {
   color: #b5bfc7;
   font-size: 18px; }
 
-/***************************** 4- Sponsors ****************************/
-.sponsors-section {
-    color:#fff;
-    background-repeat: repeat;
-    background-position: left;
-    background-color: #FF4F19;
-    padding: 40px 0px 80px 0px;
-    background-image: url("../images/transparent-pattern.png");
+
+/***************************** themplate-people ****************************/
+.people-section{
+  color:#fff;
+  background-image: url("../images/transparent-pattern.png");
 }
+  
+  /*developers******************/
+  .developers-section {
+      color:#fff;
+      background-color:rgba(255,145,0,0.5);
+      padding: 40px 0px 80px 0px;
+  }
+      .developers-section{
+          color:#fff;
+      }
+      
+      .developers-section p{
+          color:#fff;
+      }
+      
+      .developers-section p > b{
+          color:#fff;
+      }
+
+      .developers-section ul.members {
+          margin:0px;
+          padding:0px;
+          text-align: center;
+      }
+
+      .developers-section ul.members li {
+          display: inline;
+          padding-right: 30px; 
+      }
+  
+  /*authors******************/
+  .authors-section {
+    color:#fff;
+    background-color:rgba(255,145,0,0.6);
+    padding: 40px 0px 80px 0px;
+  }
+    .authors-section{
+        color:#fff;
+    }
+    
+    .authors-section p{
+        color:#fff;
+    }
+    
+    .authors-section p > b{
+        color:#fff;
+    }
+
+    .authors-section ul.members {
+        margin:0px;
+        padding:0px;
+        text-align: center;
+    }
+
+    .authors-section ul.members li {
+        display: inline;
+        padding-right: 30px; 
+    }
+  
+  /*sponsors******************/
+  .sponsors-section {
+    color:#fff;
+    background-color:rgba(255,145,0,0.7);
+    padding: 40px 0px 80px 0px;
+  }
     .sponsors-section{
         color:#fff;
     }
@@ -561,6 +623,7 @@ p {
         display: inline;
         padding-right: 30px; 
     }
+
 
 /***************************** 5- Contacts ****************************/
 .section {

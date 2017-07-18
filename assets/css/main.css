@@ -235,12 +235,18 @@ p {
   padding-top: 70px; }
 
 /***************************** Header ****************************/
-.hero {
 
-    background-color:#faaa20;
-    background-image: url("../images/bg-pattern.png");
-  
-  position: relative; }
+.fixed{
+  z-index: 100;
+  width: 100%;
+  position: fixed !important;
+}
+
+.hero {
+  background-color:#faaa20;
+  background-image: url("../images/bg-pattern.png");
+  position: relative; 
+}
 
 .navbar {
   padding: 30px 0 30px 0;
@@ -405,131 +411,73 @@ p {
 .genre {
   padding: 50px  0; }
 
-/***************************** 3- Topics ****************************/
-.topics {
-  padding: 50px 0; }
-  .topics header {
-    border-bottom: 1px solid #eee;
-    position: relative; }
-    .topics header h2 {
-      font-size: 38px;
-      font-weight: 300;
-      font-family: "Roboto", sans-serif;
-      color: #43484d; }
-    .topics header p {
-      font-size: 16px;
-      font-weight: 300;
-      font-family: "Roboto", sans-serif;
-      color: #5e6977; }
-  .topics .topics-btn {
-    margin-top: 30px; }
-    .topics .topics-btn .btn {
-      margin-top: 60px;
-      color: #358ed7; }
-    .topics .topics-btn span {
-      display: inline;
-      padding-left: 30px; }
+/*----------------------- archive ----------------------*/
 
-.topics h3 a {
-  font-size: 18px;
-  font-weight: 400;
-  font-family: "Roboto", sans-serif;
-  color: #43484d;
-  text-decoration: none; }
+.article{
+  position: relative;
+  width: 100%;
+  margin-top: 115px;
+}
 
-.media-border {
-  border-bottom: 1px solid #eeeeee; }
+.list{
+  
+  background-color:red;
+  position: fixed;
+  top:115px;
+  bottom: 0;
+  height: 100vh;
+  overflow: auto;
+  padding:0px 0px 0px 10px;
+}
 
-.topics-list {
-  padding: 20px 0; }
-  .topics-list li {
+  .list li {
     list-style: none;
     padding-left: 5px;
-    padding-top: 10px; }
-    .topics-list li a {
-      padding-left: 15px;
+    padding-top: 15px; 
+  }
+    
+    .list li i{
+      color:#FF9100;
+    }
+
+    .list li a {      
+      margin:0px;
+      cursor:pointer;
       color: #5e6977;
       font-size: 14px;
+      outline: 0 none;
       font-weight: 400;
-      font-family: "Roboto",sans-serif;
       text-decoration: none;
-      outline: 0 none; }
-    .topics-list li a:hover {
-      color: #7dc855; }
-  .topics-list li:before {
-    font-family: FontAwesome;
-    content: "";
-    color: #b5bfc7;
-    font-size: 18px; }
-  .topics-list .badge {
-    background-color: #7dc855;
-    border-radius: 50%;
-    color: #fff;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 25px;
-    min-width: 10px;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    height: 25px;
-    width: 25px;
-    margin-right: 10px;
-    padding: 0; }
+      font-family: "Roboto",sans-serif;
+    }
 
-/*----------------------- Widgets ----------------------*/
-.widget {
-  border: 3px solid #f7f7f7;
-  border-radius: 5px;
-  padding: 25px; }
-  .widget h4 {
-    font-size: 18px;
-    font-weight: 400;
-    color: #43484d;
-    line-height: 25px; }
-  .widget .icon {
-    float: right;
-    padding-right: 10px;
-    padding-right: 20px; }
+  /*sub-list*/
+  .list li .sub-list{
+    padding:0px 0px 0px 20px;
+  }
+    .list li .sub-list ul{
+      padding:0px;
+      margin:0px;
+    }
+    
+      .list li .sub-list ul li{
+        padding:0px;
+        margin:8px 0px;
+      }
 
-.widget-support-forum {
-  margin-bottom: 24px;
-  margin-top: 50px; }
-  .widget-support-forum p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #86939e;
-    padding-top: 30px;
-    padding-bottom: 30px; }
+        .list li .sub-list ul li i {
+          font-size: 14px;
+          color:#FF9100;
+        }
 
-.widget_categories li {
-  list-style: none;
-  padding-left: 5px;
-  padding-top: 15px; }
-  .widget_categories li a {
-    padding-left: 15px;
-    color: #5e6977;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: "Roboto",sans-serif;
-    text-decoration: none;
-    outline: 0 none; }
-  .widget_categories li a:hover {
-    color: #7dc855; }
-  .widget_categories li ul {
-    padding-left: 30px;
-    padding-bottom: 20px; }
-    .widget_categories li ul li:before {
-      font-family: FontAwesome;
-      content: ""; }
-
-.widget_categories li:before {
-  font-family: FontAwesome;
-  content: "";
-  color: #b5bfc7;
-  font-size: 18px; }
-
+        .list li .sub-list ul li a{
+          color: #5e6977;
+          font-size: 14px;
+          outline: 0 none;
+          font-weight: 400;
+          text-decoration: none;
+          font-family: "Roboto",sans-serif;
+        }
 
 /***************************** themplate-people ****************************/
 .people-section{
@@ -812,6 +760,102 @@ p {
   font-weight: 400;
   background-color:#3B5998;
 }
+
+/*Learn.Html*/
+
+.learn-card{
+  padding:50px 0px 0px 0px;
+} 
+  .learn-card a{
+    text-decoration:none;
+  }
+  
+  .learn-card .card{
+    padding:16px;
+    color: #40434b;
+    font-size: 15px;
+    max-width: 450px;
+    margin-top: 30px;
+    background: white;
+    position: relative;
+    border: 1px solid #dfdfdf;
+    box-shadow: 0 0 3px #dfdfdf;
+  }
+
+    .learn-card .card .ticket-stub-left{
+      position: absolute;
+      top: 50%;
+      left: -8px;
+      margin-top: -8px;
+      content: '';
+      width: 16px;
+      height: 16px;
+      background-color:#fff;
+      z-index: 1;
+      border-radius: 50%;
+      box-shadow:1px 0px 1px #afafaf;
+    }
+    
+    .learn-card .card .ticket-stub-right{
+      position: absolute;
+      top: 50%;
+      right:-8px;
+      margin-top: -8px;
+      content: '';
+      width: 16px;
+      height: 16px;
+      background-color:#fff;
+      z-index: 1;
+      border-radius: 50%;
+      box-shadow:-1px 0px 1px #afafaf;
+    }
+
+    .learn-card .card header{
+      
+    }
+
+      .learn-card .card header h1{
+        margin:0px;
+        font-size: 18px;
+        font-weight: 400;
+      }
+
+      .learn-card .card header p{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        margin: 10px 0px 0px 0px;
+      }
+
+    .learn-card .card footer{
+      width: 100%;
+      margin-top: 15px;
+      position: relative;
+      padding: 0px 0px 17px 0px;
+    }
+      
+      .learn-card .card footer img{
+        top:4px;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        position: absolute;
+      }
+
+      .learn-card .card footer p{
+        left:20px;
+        color:#5e6977;
+        font-weight:400;
+        position: absolute;
+      }
+
+      .learn-card .card footer span{
+        right: 0;
+        color:#5e6977;
+        font-weight:400;
+        position: absolute;
+      }
 
 /* = Sponsors
 --------------------------------------------------------------------->

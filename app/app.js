@@ -10,13 +10,13 @@ app.config(function($routeProvider) {
     })
     .when("/learn", {
         templateUrl : "app/learn/learn.html",
-        controller : "HomeController",
-        controllerAs: 'home'
+        controller : "LearnController",
+        controllerAs: 'learn'
     })
     .when("/archive", {
         templateUrl : "app/archive/archive.html",
-        controller : "HomeController",
-        controllerAs: 'home'
+        controller : "ArchiveController",
+        controllerAs: 'archive'
     })
     .when("/register", {
         templateUrl : "app/register/register.html",

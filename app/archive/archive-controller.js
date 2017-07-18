@@ -21,7 +21,14 @@ function ArchiveController(){
 			},{
 				listTitle : "Veri Bağlama"
 			},{
-				listTitle : "Kontroller"
+				listTitle : "Kontroller",
+				subList : [{
+						subListTitle : "Nedir ?"
+					},{
+						subListTitle : "Neler Yapılır ?"
+					},{
+						subListTitle : "Neden Öğrenmeliyim ?"
+					}]
 			},{
 				listTitle : "Servisler"
 			},{
@@ -31,7 +38,14 @@ function ArchiveController(){
 			},{
 				listTitle : "Modüller"
 			},{
-				listTitle : "Yönlendirci"
+				listTitle : "Yönlendirci",
+				subList : [{
+						subListTitle : "Nedir ?"
+					},{
+						subListTitle : "Neler Yapılır ?"
+					},{
+						subListTitle : "Neden Öğrenmeliyim ?"
+					}]
 			}
 		];
 

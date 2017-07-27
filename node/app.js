@@ -18,6 +18,11 @@ app.post('/test',function (req,res) {
 		};
 
 		res.send(JSON.stringify(login));
+	}else{
+		var error = {
+			messege : 'Kullanıcı Bulunamadı'
+		}
+		res.send(JSON.stringify(error));
 	}	
 })
 

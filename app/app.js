@@ -28,6 +28,11 @@ app.config(function($routeProvider) {
         controller : "HomeController",
         controllerAs: 'home'
     })
+    .when("/lab",{
+        templateUrl : "app/lab/lab.html",
+        controller : "LabController",
+        controllerAs: 'lab'
+    })
     .otherwise(({
      	redirectTo: '/'
  	}))

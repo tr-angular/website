@@ -8,6 +8,9 @@ function ArchiveController(){
 	function init(){
 		var list = [
 			{
+				listTitle: "Başlarken",
+			},
+			{
 				listTitle : "Angular Js",
 				subList : [{
 						subListTitle : "Nedir ?"
@@ -19,9 +22,9 @@ function ArchiveController(){
 			},{
 				listTitle : "Kavramlara Genel Bakış"
 			},{
-				listTitle : "Veri Bağlama"
+				listTitle : "Data Binding"
 			},{
-				listTitle : "Kontroller",
+				listTitle : "Controller",
 				subList : [{
 						subListTitle : "Nedir ?"
 					},{
@@ -30,15 +33,15 @@ function ArchiveController(){
 						subListTitle : "Neden Öğrenmeliyim ?"
 					}]
 			},{
-				listTitle : "Servisler"
+				listTitle : "Services"
 			},{
-				listTitle : "Kapsam ($scope)"
+				listTitle : "$scope"
 			},{
-				listTitle : "Direktivler"
+				listTitle : "Directive"
 			},{
-				listTitle : "Modüller"
+				listTitle : "Module"
 			},{
-				listTitle : "Yönlendirci",
+				listTitle : "Router",
 				subList : [{
 						subListTitle : "Nedir ?"
 					},{

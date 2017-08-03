@@ -27,17 +27,18 @@
 <div class="lab-card">
     <div class="container">
         <div class="col-md-4" ng-repeat="item in lab.courses">
-            <a href="{{item.courseUrl}}">
                 <div class="card" style="border-radius: 5px;">
                     <header>
                         <center><h1>{{item.courseName}}</h1></center>
-                        <p>{{item.courseDesc}}</p>   
                     </header>
+                    <p>{{item.courseDesc}}</p>   
                     <footer>
                         <img src="{{item.authorsAvatar}}"><p>{{item.authorsName}}</p>
+                        <a href="{{item.courseUrl}}">
+                            <span><i class="fa fa-github" aria-hidden="true"></i> Github'ta gör!</span>
+                        </a>
                     </footer>
                 </div>
-            </a>
         </div>
     </div>
     <div style="padding:20px;"></div>

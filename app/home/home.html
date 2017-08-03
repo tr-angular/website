@@ -46,7 +46,16 @@
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            çıktısı
+            <div class="home-card">
+                <div class="card" style="margin:0px;">
+                    <input type="text" ng-model="home.note" placeholder="Adını yaz">
+                    <p>
+                        Merhaba {{home.note | firstLetter}},
+                        Senin için buraları hazırladık, umarız işine yarar. 
+                        Döküman kısmını okuyarak, Angular Js' e başlaya bilirsin.
+                    </p>
+                </div>
+            </div> 
         </div>
         <div class="col-md-8">
             <pre><code class="language-javascript" prism>

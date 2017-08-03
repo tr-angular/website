@@ -23,42 +23,44 @@
         </div>
     </div>
 </header>
-<div class="col-md-2" ng-init="archive.init()">
+
+<div class="container">
     <div class="row">
-         <div class="list">
-            <ul>
-                <li ng-repeat="item in archive.list">
-                    <i class="fa fa-folder" aria-hidden="true"></i>
-                    <a ng-click="subList == true ? subList = false : subList = true">{{item.listTitle}}</a>
-                    <div class="sub-list" ng-if="subList">
-                        <ul>
-                            <li ng-repeat="Item in item.subList">
-                            <i class="fa fa-file" aria-hidden="true"></i>
-                            <a>{{Item.subListTitle}}</a></li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
+        <div class="col-md-3" ng-init="archive.init()">
+            <div class="list">
+                <ul>
+                    <li ng-repeat="item in archive.list">
+                        <i class="fa fa-folder" aria-hidden="true"></i>
+                        <a ng-click="subList == true ? subList = false : subList = true">{{item.listTitle}}</a>
+                        <div class="sub-list" ng-if="subList">
+                            <ul>
+                                <li ng-repeat="Item in item.subList">
+                                <i class="fa fa-file" aria-hidden="true"></i>
+                                <a>{{Item.subListTitle}}</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div> 
-</div>
-<div class="col-md-7">
-    <div class="row">
-        <div class="article">
-            <h1>Başlarken ?</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, eaque expedita nemo totam quibusdam mollitia, corporis id nulla quo ut iste facilis nesciunt? Suscipit reiciendis porro totam voluptatibus, architecto vel!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nesciunt saepe, corrupti totam modi, suscipit inventore commodi itaque, libero quisquam quis dolor eius neque dolorum. Culpa quod, ipsam inventore non.
-                <br>
-                <pre><code class="language-javascript" prism>
-    var app = module.angular('app',[]);
-            </code></pre>
-                <br>
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nam, mollitia ducimus animi accusantium et numquam quod? Illo, dolore cupiditate veritatis fugiat accusamus voluptates quis commodi consectetur, asperiores itaque dolorum!
-            </p>
+        <div class="col-md-7">
+            <div class="article">
+                <h1>Başlarken ?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, eaque expedita nemo totam quibusdam mollitia, corporis id nulla quo ut iste facilis nesciunt? Suscipit reiciendis porro totam voluptatibus, architecto vel!
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia nesciunt saepe, corrupti totam modi, suscipit inventore commodi itaque, libero quisquam quis dolor eius neque dolorum. Culpa quod, ipsam inventore non.
+                    <br>
+                    <pre><code class="language-javascript" prism>
+        var app = module.angular('app',[]);
+                </code></pre>
+                    <br>
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nam, mollitia ducimus animi accusantium et numquam quod? Illo, dolore cupiditate veritatis fugiat accusamus voluptates quis commodi consectetur, asperiores itaque dolorum!
+                </p>
+            </div>
         </div>
+        <div class="col-md-2"></div>
     </div>
 </div>
 <div class="col-md-12 footer" ng-include="'app/template/footer.html'"></div>

@@ -26,21 +26,23 @@
 
 <div class="learn-card">
     <div class="container">
-        <div class="col-md-4" ng-repeat="item in learn.courses">
-            <a href="{{item.courseUrl}}">
-                <div class="card">
-                    <div class="ticket-stub-left"></div>
-                    <div class="ticket-stub-right"></div>
-                    <header>
-                        <h1>{{item.courseName}}</h1>
-                        <p>{{item.courseDesc}}</p>   
-                    </header>
-                    <footer>
-                        <img src="{{item.authorsAvatar}}"><p>{{item.authorsName}}</p>
-                        <span><i class="fa fa-eye" aria-hidden="true"></i> {{item.courseWatch}}</span>
-                    </footer>
-                </div>
-            </a>
+        <div class="row">
+            <div class="col-md-4" ng-repeat="item in learn.courses">
+                <a href="{{item.courseUrl}}">
+                    <div class="card">
+                        <div class="ticket-stub-left"></div>
+                        <div class="ticket-stub-right"></div>
+                        <header>
+                            <h1>{{item.courseName}}</h1>
+                            <p>{{item.courseDesc}}</p>   
+                        </header>
+                        <footer>
+                            <img src="{{item.authorsAvatar}}"><p>{{item.authorsName}}</p>
+                            <span><i class="fa fa-eye" aria-hidden="true"></i> {{item.courseWatch}}</span>
+                        </footer>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>

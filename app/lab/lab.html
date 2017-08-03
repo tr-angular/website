@@ -26,7 +26,8 @@
 
 <div class="lab-card">
     <div class="container">
-        <div class="col-md-4" ng-repeat="item in lab.courses">
+        <div class="row">
+            <div class="col-md-4" ng-repeat="item in lab.courses">
                 <div class="card" style="border-radius: 5px;">
                     <header>
                         <center><h1>{{item.courseName}}</h1></center>
@@ -39,6 +40,7 @@
                         </a>
                     </footer>
                 </div>
+            </div>
         </div>
     </div>
     <div style="padding:20px;"></div>

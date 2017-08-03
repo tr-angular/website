@@ -48,19 +48,30 @@
         <div class="col-md-4">
             <div class="home-card">
                 <div class="card" style="margin:0px;">
-                    <input type="text" ng-model="home.note" placeholder="Adını yaz">
+                    <input type="text" ng-model="home.name" placeholder="Adını Yazarmısın ?">
                     <p>
-                        Merhaba {{home.note | firstLetter}},
+                        Merhaba <span ng-bind="home.name"></span>
                         Senin için buraları hazırladık, umarız işine yarar. 
-                        Döküman kısmını okuyarak, Angular Js' e başlaya bilirsin.
+                        <span class="tr-important">Döküman</span> kısmını okuyarak, Angular Js' e başlaya bilirsin.
+                        <span class="tr-important">Öğren</span> kısmından, Angular Js' yi uygulamalı olarak pekiştire bilirsin.
+                        Senin gibi gencoların yaptıklarını görmek, feyz almak için <span class="tr-important">Laboratuvar</span>'a uğra. Haberler için aşağıyı kontrol et, her an her şey olabilir! 
                     </p>
                 </div>
             </div> 
         </div>
         <div class="col-md-8">
-            <pre><code class="language-javascript" prism>
-    var app = module.angular('app',[]);
-            </code></pre>
+<pre>
+<code class="language-markup" prism>
+    &lt;input type="text" ng-model="home.name" placeholder="Adını Yazarmısın ?"&gt;
+    &lt;p&gt;
+        Merhaba &lt;span ng-bind="home.name"&gt;&lt;/span&gt;,
+        Senin için buraları hazırladık, umarız işine yarar. 
+        <span class="tr-important">Döküman</span> kısmını okuyarak, Angular Js' e başlaya bilirsin.
+        <span class="tr-important">Öğren</span> kısmından, Angular Js' yi uygulamalı olarak pekiştire bilirsin.
+        Senin gibi gencoların yaptıklarını görmek, feyz almak için <span class="tr-important">Laboratuvar</span>'a uğra. Haberler için aşağıyı kontrol et, her an her şey olabilir! 
+    &lt;/p&gt;
+</code>
+</pre>
         </div> 
     </div>
    

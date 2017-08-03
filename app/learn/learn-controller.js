@@ -42,6 +42,55 @@ function LearnController(){
 				authorsAvatar : "assets/images/gokhanbirdal.png",
 				courseWatch : "4387",
 				courseUrl : "https://egghead.io/lessons/build-and-deploy-your-angular-app-to-firebase-hosting"
+			},{
+				courseName : "Angular' da Servisler",
+				courseDesc : "Bu bölümde, Angular' ın default gelen servislerine bakacağız, servisler angular' ın ...",
+				authorsName : "Gökhan Birdal",
+				authorsAvatar : "assets/images/gokhanbirdal.png",
+				courseWatch : "4387",
+				courseUrl : "https://egghead.io/lessons/build-and-deploy-your-angular-app-to-firebase-hosting"
+			},{
+				courseName : "Angular' da Servisler",
+				courseDesc : "Bu bölümde, Angular' ın default gelen servislerine bakacağız, servisler angular' ın ...",
+				authorsName : "Gökhan Birdal",
+				authorsAvatar : "assets/images/gokhanbirdal.png",
+				courseWatch : "4387",
+				courseUrl : "https://egghead.io/lessons/build-and-deploy-your-angular-app-to-firebase-hosting"
+			},{
+				courseName : "Angular' da Servisler",
+				courseDesc : "Bu bölümde, Angular' ın default gelen servislerine bakacağız, servisler angular' ın ...",
+				authorsName : "Gökhan Birdal",
+				authorsAvatar : "assets/images/gokhanbirdal.png",
+				courseWatch : "4387",
+				courseUrl : "https://egghead.io/lessons/build-and-deploy-your-angular-app-to-firebase-hosting"
+			},{
+				courseName : "Angular' da Servisler",
+				courseDesc : "Bu bölümde, Angular' ın default gelen servislerine bakacağız, servisler angular' ın ...",
+				authorsName : "Gökhan Birdal",
+				authorsAvatar : "assets/images/gokhanbirdal.png",
+				courseWatch : "4387",
+				courseUrl : "https://egghead.io/lessons/build-and-deploy-your-angular-app-to-firebase-hosting"
+			},{
+				courseName : "Angular' da Servisler",
+				courseDesc : "Bu bölümde, Angular' ın default gelen servislerine bakacağız, servisler angular' ın ...",
+				authorsName : "Gökhan Birdal",
+				authorsAvatar : "assets/images/gokhanbirdal.png",
+				courseWatch : "4387",
+				courseUrl : "https://egghead.io/lessons/build-and-deploy-your-angular-app-to-firebase-hosting"
+			},{
+				courseName : "Angular' da Servisler",
+				courseDesc : "Bu bölümde, Angular' ın default gelen servislerine bakacağız, servisler angular' ın ...",
+				authorsName : "Gökhan Birdal",
+				authorsAvatar : "assets/images/gokhanbirdal.png",
+				courseWatch : "4387",
+				courseUrl : "https://egghead.io/lessons/build-and-deploy-your-angular-app-to-firebase-hosting"
+			},{
+				courseName : "Angular' da Servisler",
+				courseDesc : "Bu bölümde, Angular' ın default gelen servislerine bakacağız, servisler angular' ın ...",
+				authorsName : "Gökhan Birdal",
+				authorsAvatar : "assets/images/gokhanbirdal.png",
+				courseWatch : "4387",
+				courseUrl : "https://egghead.io/lessons/build-and-deploy-your-angular-app-to-firebase-hosting"
 			}
 		];
 

@@ -400,6 +400,12 @@ p {
         font-family: "Roboto", sans-serif;
         color: #86939e;
     }
+  .tr-important{
+    color:#fff;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FF4F19;
+  }
 /*Home*/
 .bgc-light-gray {
   background-color: #f9f9f9; }
@@ -441,7 +447,7 @@ p {
 
 .article{
   width: 100%;
-  padding:50px;
+  margin-top: 20px;
   position: relative;
 }
   .article h1{
@@ -455,7 +461,7 @@ p {
 
 .list{
   height:100vh;
-  padding:0px 20px 0px 20px;
+  padding:0px 20px 0px 0px;
   border-right: 2px solid #FAAA20;
 }
 

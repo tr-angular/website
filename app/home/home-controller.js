@@ -1,4 +1,5 @@
 app.controller('HomeController',HomeController);
+app.filter('firstLetter', firstLetter);
 
 function HomeController($http){
 	var vm = this;
@@ -33,3 +34,7 @@ app.directive('prism', function() {
         }
     }
 });
+
+function firstLetter(){
+	return 'enes';
+}

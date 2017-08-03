@@ -273,6 +273,7 @@ p {
     padding: 12px 27px !important;
     border-radius: 3px;
     margin-top: 5px; 
+    margin-left:15px; 
   }
 
   .navbar .nav-btn:hover {
@@ -355,7 +356,32 @@ p {
 .home{
     padding: 100px 0;
     position: relative;  
-}
+} 
+  
+  .home-card{
+    width: 100%;
+    word-wrap:break-word;
+  }
+
+  .home-card .card{
+    padding: 30px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.1);
+  }
+    .home-card .card input[type="text"] {
+      transition-duration: 0.5s;
+      border: 2px solid #e1e8ee;
+      border-radius: 5px;
+      color: #43484d;
+      font-size: 14px;
+      height: 50px;
+      margin: 10px 0;
+      padding: 15px;
+      outline: none;
+      width: 100%;
+    }
+
     .home .icon{
         display: inline-block;
         font-size: 50px;
@@ -420,6 +446,11 @@ p {
 }
   .article h1{
     margin:0px;
+  }
+
+  .article p{
+    margin-top: 10px;
+    text-align: justify;
   }
 
 .list{
@@ -853,6 +884,79 @@ p {
         color:#5e6977;
         font-weight:400;
         position: absolute;
+      }
+
+/*lab.Html*/
+
+.lab-card{
+  background-color:#171E27;
+  padding:50px 0px 0px 0px;
+} 
+  .lab-card a{
+    text-decoration:none;
+  }
+  
+  .lab-card .card{
+    padding:16px;
+    color: #40434b;
+    font-size: 15px;
+    max-width: 450px;
+    margin-top: 30px;
+    background: white;
+    position: relative;
+    border: 1px solid #dfdfdf;
+  }
+
+    .lab-card .card header{
+    }
+
+      .lab-card .card header h1{
+        margin:0px;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 400;
+      }
+
+      .lab-card .card header p{
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 18px;
+        margin: 10px 0px 0px 0px;
+      }
+
+    .lab-card .card footer{
+      width: 100%;
+      margin-top: 15px;
+      position: relative;
+      padding: 0px 0px 17px 0px;
+    }
+      
+      .lab-card .card footer img{
+        top:4px;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        position: absolute;
+      }
+
+      .lab-card .card footer p{
+        left:20px;
+        color:#5e6977;
+        font-weight:400;
+        position: absolute;
+      }
+
+      .lab-card .card footer span{
+        right: 0;
+        color:#FF9100;
+        font-weight:400;
+        position: absolute;
+      }
+
+      .lab-card .card footer span i{
+        color:#FF9100;
+        font-size: 18px;
       }
 
 /* = Sponsors

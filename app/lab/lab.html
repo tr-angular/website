@@ -24,23 +24,23 @@
     </div>
 </header>
 
-<div class="learn-card">
+<div class="lab-card">
     <div class="container">
         <div class="col-md-4" ng-repeat="item in lab.courses">
-            <a href="{{item.courseUrl}}">
                 <div class="card" style="border-radius: 5px;">
                     <header>
-                        <h1>{{item.courseName}}</h1>
-                        <p>{{item.courseDesc}}</p>   
+                        <center><h1>{{item.courseName}}</h1></center>
                     </header>
+                    <p>{{item.courseDesc}}</p>   
                     <footer>
                         <img src="{{item.authorsAvatar}}"><p>{{item.authorsName}}</p>
-                        <span><i class="fa fa-eye" aria-hidden="true"></i> {{item.courseWatch}}</span>
+                        <a href="{{item.courseUrl}}">
+                            <span><i class="fa fa-github" aria-hidden="true"></i> Github'ta gör!</span>
+                        </a>
                     </footer>
                 </div>
-            </a>
         </div>
     </div>
+    <div style="padding:20px;"></div>
 </div>
-<div class="col-md-12 section" ng-include="'app/template/community/community.html'"></div>
 <div class="col-md-12 footer" ng-include="'app/template/footer.html'"></div>
